@@ -16,7 +16,7 @@ echo \
 sudo apt-get update
 
 # install docker packages:
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 # sudo nashi de jikkou:
 sudo gpasswd -a ubuntu docker
